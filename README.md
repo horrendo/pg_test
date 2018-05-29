@@ -2,7 +2,7 @@
 
 We have adopted the use of [pgTAP](https://pgtap.org/) as our postgres database testing framework. It provides an extremely comprehensive suite of assertion functions but the associated command line test runner (pg_prove) is based on Perl and requires a bit of setup to run.
 
-I decided to write a substitute based on [Crystal](https://crystal-lang.org/) because it can be compiled into a single standalone executable. Plus I was looking for something to push me into learning the language. :smiley:
+I decided to write a substitute based on [Crystal](https://crystal-lang.org/) because it can be compiled into a single standalone executable. Plus I was looking for something to push me into learning the language.
 
 ## Running locally
 
@@ -125,4 +125,4 @@ W|10:21:58.563|pg_test|00.032119|00.003181|t1.sql: Looks like you failed 1 test 
 W|10:21:58.563|pg_test|00.032355|00.000236|Program completed
 ```
 
-This shows there was an error with the test found at line 4 `(#4)` in t1.sql.pg_test
+This shows there was an error with the test found at line 4 `(#4)` in t1.sql.
