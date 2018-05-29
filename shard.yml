@@ -1,0 +1,10 @@
+name: pg_test
+version: 0.1.0
+
+targets:
+  pg_test:
+    main: pg_test.cr
+
+dependencies:
+  pg:
+    github: will/crystal-pg

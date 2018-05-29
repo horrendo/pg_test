@@ -1,0 +1,6 @@
+.shards
+bin
+lib
+shard.lock
+pg_test
+*.dwarf
